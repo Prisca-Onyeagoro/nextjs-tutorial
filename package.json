@@ -1,0 +1,36 @@
+{
+  "name": "next11.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prisca-Onyeagoro/nextjs-tutorial.git"
+  },
+  "keywords": [
+    "nextjs",
+    "tutorial"
+  ],
+  "author": "prisca onyeagoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prisca-Onyeagoro/nextjs-tutorial/issues"
+  },
+  "homepage": "https://github.com/Prisca-Onyeagoro/nextjs-tutorial#readme"
+}
