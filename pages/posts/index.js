@@ -1,13 +1,17 @@
+import Link from 'next/link';
+
 const postlist = ({ posts }) => {
   return (
     <>
       {posts.map((post) => {
         return (
           <div key={post.id}>
-            <h1>
-              {post.id}. {post.title}
-            </h1>
-            <hr />
+            <Link href={`/posts/${post.id}`}>
+              <h1>
+                {post.id}. {post.title}
+              </h1>
+              <hr />
+            </Link>
           </div>
         );
       })}
