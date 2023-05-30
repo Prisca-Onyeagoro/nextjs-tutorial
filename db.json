@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "Apple",
+      "price": 100,
+      "description": "A sweet Quoted Fruit with about 80% water contained and other mineral resources"
+    },
+    {
+      "id": 2,
+      "title": "Orange",
+      "price": 900,
+      "description": "A sweet Quoted Fruit with about 90% water contained and other mineral resources"
+    },
+    {
+      "id": 3,
+      "title": "cashew",
+      "price": 190,
+      "description": "A sweet Quoted Fruit with about 100% water contained and other mineral resources"
+    }
+  ]
+}
