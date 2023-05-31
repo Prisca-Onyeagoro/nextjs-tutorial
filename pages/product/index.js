@@ -28,6 +28,7 @@ export async function getStaticProps() {
       products: data,
     },
   };
+  revalidate: 10;
 }
 
 export default productlist;

@@ -1,4 +1,31 @@
 {
+  "news": [
+    {
+      "id": 1,
+      "category": "politics",
+      "year": 1996,
+      "description": "Nigeria INEC Electoral debate"
+    },
+    {
+      "id": 2,
+      "category": "school",
+      "year": 2023,
+      "description": "ASUU strike Ends"
+    },
+    {
+      "id": 3,
+      "category": "sport",
+      "year": 2066,
+      "description": "Europe UEFA LEAGUE; ROMA(1) VS JUVENTUS(1)  <---- Score Line(Full Time)"
+    },
+    {
+      "id": 4,
+      "category": "sport",
+      "year": 2066,
+      "description": " UEFA  CHAMPIONS LEAGUE; RMD(0) VS MANCITY(4)  <---- Score Line(Full Time)"
+    }
+  ],
+
   "product": [
     {
       "id": 1,

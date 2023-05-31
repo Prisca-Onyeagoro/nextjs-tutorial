@@ -2,9 +2,6 @@ import { useRouter } from 'next/router';
 
 const postDetails = ({ post }) => {
   const router = useRouter();
-  if (router.isFallback) {
-    return <h2>Loading.... :)</h2>;
-  }
   return (
     <>
       <div>
