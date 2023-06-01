@@ -1,4 +1,62 @@
 {
+  "events": [
+    {
+      "id": 1,
+      "title": "football",
+      "category": "sports",
+      "date": 2023
+    },
+    {
+      "id": 2,
+      "title": "National Election",
+      "category": "politics",
+      "date": 2023
+    },
+    {
+      "id": 3,
+      "title": "Academics",
+      "category": "Education",
+      "date": 2023
+    },
+    {
+      "id": 4,
+      "title": "basketball",
+      "category": "sports",
+      "date": 2023
+    },
+    {
+      "id": 5,
+      "title": "America Election",
+      "category": "Politics",
+      "date": 2023
+    },
+    {
+      "id": 6,
+      "title": "cowbell competition",
+      "category": "Education",
+      "date": 2023
+    },
+    {
+      "id": 7,
+      "title": "Music",
+      "category": "Entertaiment",
+      "date": 2023
+    },
+    {
+      "id": 8,
+      "title": "Nollywood",
+      "category": "Entertainment",
+      "date": 2023
+    }
+  ],
+  "dashboard": [
+    {
+      "posts": 5,
+      "likes": 790,
+      "followers": "2.5k",
+      "following": "1k"
+    }
+  ],
   "news": [
     {
       "id": 1,
