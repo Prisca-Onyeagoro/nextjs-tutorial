@@ -1,8 +1,6 @@
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import '../styles/layout.css';
-import '../styles/globals.css';
 import Head from 'next/head';
+import '../components/Navbar.css';
+import Navbar from '../components/Navbar';
 
 function MyApp({ Component, pageProps }) {
   if (Component.getLayout) {
@@ -14,9 +12,8 @@ function MyApp({ Component, pageProps }) {
         <title>NEXTJS TUTORIAL</title>
         <meta name="description" content="Nextjs tutorial" />
       </Head>
-      <Header />
+      <Navbar />
       <Component {...pageProps} />
-      <Footer />
     </>
   );
 }
