@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import { signIn, signOut, useSession } from 'next-auth/react';
 
 function Navbar() {
+  const { data: session, loading } = useSession();
   return (
     <nav className="header">
       <h1 className="logo">
@@ -17,13 +19,26 @@ function Navbar() {
           <Link href="/blog">Blog</Link>
         </li>
 
-        <li>
-          <Link href="#">Sign In</Link>
-        </li>
-
-        <li>
-          <Link href="#">Sign Out</Link>
-        </li>
+        {!session && !loading && (
+          <>
+            <li>
+              <button
+                onClick={(e) => {
+                  e.preventDefault, signIn();
+                }}
+              >
+                Sign In
+              </button>
+            </li>
+          </>
+        )}
+        {session && (
+          <>
+            <li>
+              <button onClick={() => signOut()}>Sign Out</button>
+            </li>
+          </>
+        )}
       </ul>
     </nav>
   );
