@@ -12,9 +12,14 @@ function Navbar() {
         <li>
           <Link href="/">Home</Link>
         </li>
-        <li>
-          <Link href="/dashboards">Dashboard</Link>
-        </li>
+        {session && (
+          <>
+            <li>
+              <Link href="/dashboards">Dashboards</Link>
+            </li>
+          </>
+        )}
+
         <li>
           <Link href="/blog">Blog</Link>
         </li>
